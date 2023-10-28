@@ -1,0 +1,15 @@
+div + p {
+    color: blue;
+}
+
+div ~ p {
+    font-style: italic;
+}
+
+body p:first-child {
+    text-decoration: underline;
+}
+
+body p:last-of-type {
+    color: red;
+}

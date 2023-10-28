@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .titulo h1 {
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .meio {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu {
+    flex: 1;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .texto {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .sobre,
+  .requisitos {
+    margin-bottom: 20px;
+  }
+  
+  .sobre h2,
+  .requisitos h2 {
+    color: green;
+  }
+  
+  .logo {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .certificado {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .certificado h2 {
+    color: green;
+  }
+  
